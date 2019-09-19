@@ -1,0 +1,40 @@
+body{
+padding: 0;
+margin: 0;
+}
+
+.feature-box{
+	text-align: center;
+	padding: 5%;
+}
+#features{
+	padding: 7% 15%;
+	text-align: center;
+}
+#title{
+background-color: #E0F203;
+color:black;
+}
+@media(max-width:1028px){
+#title{
+	text-align: center;
+  }
+  #welcome {
+	  font-size: 6px;
+	}
+}
+
+#welcome {
+	background-image: url("http://agirasweb.co.ke/informationtech.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+}
+
+#footer {
+	background-color: #fff;
+	text-align: center;
+    padding: 7% 15%;
+}
+ .btn-footer{
+     margin: 2% 3%;
+ }
